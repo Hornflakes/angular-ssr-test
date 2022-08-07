@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: angular-ssr-test
+    env: static
+    buildCommand: npm build:ssr
+    staticPublishPath: dist
