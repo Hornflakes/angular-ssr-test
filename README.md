@@ -13,6 +13,6 @@ Kudos to ***Antoine Bernard*** for the [guide](https://www.antoinebernard.com/cr
 2. Create a new **Static Site** on Render and connect it to your repository
 3. Use the following values during creation:
 
-   **Build Command** ```npm run-script build:ssr --prod```
+   **Build Command** ```npm run-script build:ssr```
 
    **Publish directory** ```dist/your-app-name/browser```
